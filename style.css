@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eb9bf0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, ;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    padding: 30px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #eb9bf0;
+}
+
+.nav__list:hover {
+    background-color: #ba63c0;
+}
+
+.section {
+    height: 100vh;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://t3.ftcdn.net/jpg/00/97/83/66/360_F_97836622_YEXOZ0r8lcUSSam3hpHrG5Uj9HLk0CbP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 60px;
+    background-image: url(https://img.freepik.com/free-vector/abstract-blur-pink-blue-gradient-background-design_53876-120257.jpg?w=2000);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.title__bottom {
+    text-transform: uppercase;
+}
+
+.main__desk {
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main__link {
+    background-color: #eb9bf0;
+    color: white;
+    font-size: 21px;
+    display: block;
+    width: 165px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main__link:hover {
+    background-color: #ba63c0;
+}
+
+.desc {
+    display: flex;
+}
+
+.subtitle {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #eb9bf0;
+}
+
+.section_col {
+    width: 50%;
+}
+
+.desc__info {
+    padding: 50px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(img/pngwing.com\ \(1\).png) no-repeat top right/ 200px, url(img/pngwing.com\ \(2\).png) no-repeat bottom center/ 200px;
+}
+
+.desc__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.poem {
+    background-image: url(https://img.lovepik.com/background/20211021/medium/lovepik-christmas-background-image_400900040.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poem__text {
+    background-color: rgba(165, 164, 164, 0.514);
+    font-size: 30px;
+    padding: 50px;
+    border-radius: 15px;
+}
