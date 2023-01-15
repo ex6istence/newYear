@@ -35,7 +35,7 @@ ul {
 
 .header {
     padding: 30px 0px;
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     left: 0;
@@ -142,7 +142,7 @@ ul {
 }
 
 .poem__text {
-    background-color: rgba(165, 164, 164, 0.514);
+    background-color: rgba(172, 12, 12, 0.514);
     font-size: 30px;
     padding: 50px;
     border-radius: 15px;
